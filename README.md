@@ -45,7 +45,8 @@ O cluster mais próximo da cor-alvo é considerado área segmentada.
 Exemplo:
 
 python segment.py --input samples/soja.jpg --method kmeans --k 3 --target green
-```bash
+
+```
 
 ⚙️ Instalação
 1. Clone o repositório:
