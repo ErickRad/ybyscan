@@ -32,7 +32,6 @@ Ideal para identificar áreas verdes de cultivo ou superfícies azuis como lonas
 ```bash
 python segment.py --input samples/soja.jpg --method hsv --target green
 
-
 Ajuste fino (verde intenso):
 
 python segment.py --input samples/soja.jpg --method hsv --target green \
@@ -46,7 +45,7 @@ O cluster mais próximo da cor-alvo é considerado área segmentada.
 Exemplo:
 
 python segment.py --input samples/soja.jpg --method kmeans --k 3 --target green
-
+'''
 
 ⚙️ Instalação
 1. Clone o repositório:
