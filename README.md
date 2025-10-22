@@ -87,41 +87,31 @@ Embora o **Ybyscan** entregue bons resultados em condições controladas, alguns
 
 ## ⚙️ Instalação
 
-1. Clone o repositório:
+### 1. Clone o repositório:
 
- - git clone https://github.com/ErickRad/ybyscan.git
-   cd ybyscan
+git clone https://github.com/ErickRad/ybyscan.git
+cd ybyscan
 
-2. Crie e ative um ambiente virtual:
+### 2. Crie e ative um ambiente virtual:
 
- - python -m venv .venv
-   source .venv/bin/activate   # Linux/macOS
-   .venv\Scripts\activate      # Windows
+python -m venv .venv
+source .venv/bin/activate   # Linux/macOS
+.venv\Scripts\activate      # Windows
  
-3. Instale as dependências:
+### 3. Instale as dependências:
 
- - pip install -r requirements.txt
+pip install -r requirements.txt
 
 ## 📦 Estrutura do Projeto
 
 ybyscan/
-
 ├── segment.py
-
 ├── segmentation/
-
 │   ├── base_segmenter.py
-
 │   ├── hsv_segmenter.py
-
 │   └── kmeans_segmenter.py
-
 ├── outputs/
-
 ├── samples/
-
 │   └── soja.jpg
-
 ├── requirements.txt
-
 └── README.md
