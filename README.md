@@ -24,13 +24,10 @@ Ele realiza **segmentação de imagens** de plantações usando dois métodos cl
 
 ## 🧠 Métodos Implementados
 
-### Segmentação por Cor (HSV)
+### Segmentação por Cor (HSV):
+
 Converte a imagem para o espaço **HSV** e aplica filtros por intervalo de cor (`H`, `S`, `V`).  
 Ideal para identificar áreas verdes de cultivo ou superfícies azuis como lonas e marcações.
-
-**Exemplo:**
-
-Segmentação por HSV:
 
 ```bash
 python segment.py --input samples/soja.jpg --method hsv --target green
@@ -42,14 +39,12 @@ python segment.py --input samples/soja.jpg --method hsv --target green \
 
 ```
 
-Segmentação por Agrupamento (K-Means):
-
-```bash
+###Segmentação por Agrupamento (K-Means):
 
 Aplica K-Means clustering nos pixels (em RGB ou HSV) para separar regiões por similaridade de cor.
 O cluster mais próximo da cor-alvo é considerado área segmentada.
 
-Exemplo:
+```bash
 
 python segment.py --input samples/soja.jpg --method kmeans --k 3 --target green
 
