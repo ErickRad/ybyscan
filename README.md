@@ -29,6 +29,11 @@ Converte a imagem para o espaço **HSV** e aplica filtros por intervalo de cor (
 Ideal para identificar áreas verdes de cultivo ou superfícies azuis como lonas e marcações.
 
 **Exemplo:**
+Segmentação por HSV:
+
+A técnica HSV (Hue, Saturation, Value) é uma das formas mais simples e eficazes de segmentar cores.  
+Ela transforma a imagem do espaço RGB para HSV, isolando tonalidade (H), saturação (S) e brilho (V). 
+
 ```bash
 python segment.py --input samples/soja.jpg --method hsv --target green
 
@@ -37,6 +42,9 @@ Ajuste fino (verde intenso):
 python segment.py --input samples/soja.jpg --method hsv --target green \
 --hmin 35 --hmax 85 --smin 60 --smax 255 --vmin 40 --vmax 255
 
+```
+
+```bash
 Segmentação por Agrupamento (K-Means):
 
 Aplica K-Means clustering nos pixels (em RGB ou HSV) para separar regiões por similaridade de cor.
