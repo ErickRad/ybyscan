@@ -86,16 +86,20 @@ Embora o **Ybyscan** entregue bons resultados em condições controladas, alguns
 
 
 ## ⚙️ Instalação
-1. Clone o repositório:
+
+- Clone o repositório:
+
 git clone https://github.com/ErickRad/ybyscan.git
 cd ybyscan
 
-2. Crie e ative um ambiente virtual:
+- Crie e ative um ambiente virtual:
+
 python -m venv .venv
 source .venv/bin/activate   # Linux/macOS
 .venv\Scripts\activate      # Windows
 
-3. Instale as dependências:
+- Instale as dependências:
+
 pip install -r requirements.txt
 
 ## 📦 Estrutura do Projeto
