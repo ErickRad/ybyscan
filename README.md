@@ -29,6 +29,7 @@ Converte a imagem para o espaço **HSV** e aplica filtros por intervalo de cor (
 Ideal para identificar áreas verdes de cultivo ou superfícies azuis como lonas e marcações.
 
 **Exemplo:**
+
 Segmentação por HSV:
 
 ```bash
