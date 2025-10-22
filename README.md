@@ -89,7 +89,7 @@ Embora o **Ybyscan** entregue bons resultados em condições controladas, alguns
 
 ### 1. Clone o repositório:
 
-git clone https://github.com/ErickRad/ybyscan.git
+git clone https://github.com/ErickRad/ybyscan.git\
 cd ybyscan
 
 ### 2. Crie e ative um ambiente virtual:
