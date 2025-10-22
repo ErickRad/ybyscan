@@ -31,23 +31,22 @@ Ideal para identificar áreas verdes de cultivo ou superfícies azuis como lonas
 
 ```bash
 python segment.py --input samples/soja.jpg --method hsv --target green
+```
 
 Ajuste fino (verde intenso):
 
+```bash
 python segment.py --input samples/soja.jpg --method hsv --target green \
 --hmin 35 --hmax 85 --smin 60 --smax 255 --vmin 40 --vmax 255
-
 ```
 
-###Segmentação por Agrupamento (K-Means):
+### Segmentação por Agrupamento (K-Means):
 
 Aplica K-Means clustering nos pixels (em RGB ou HSV) para separar regiões por similaridade de cor.
 O cluster mais próximo da cor-alvo é considerado área segmentada.
 
 ```bash
-
 python segment.py --input samples/soja.jpg --method kmeans --k 3 --target green
-
 ```
 
 ⚙️ Instalação
