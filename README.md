@@ -10,7 +10,7 @@ Ele realiza **segmentação de imagens** de plantações usando dois métodos cl
 ## 🚀 Funcionalidades
 
 - 📸 Carrega imagens locais (ou stream de webcam, opcional)
-- 🌈 Segmenta regiões **verdes** ou **azuis**
+- 🏞 Segmenta regiões 🟢**verdes** ou 🔵**azuis**
 - 🔁 Alterna métodos `HSV` ↔ `K-Means`
 - 🎚️ Ajuste fino de limiares HSV via flags
 - 💾 Gera:
@@ -51,7 +51,7 @@ python segment.py --input samples/soja.jpg --method kmeans --k 3 --target green
 
 ⚙️ Instalação
 1. Clone o repositório:
-git clone https://github.com/ybysys/ybyscan.git
+git clone https://github.com/ErickRad/ybyscan.git
 cd ybyscan
 
 2. Crie e ative um ambiente virtual:
