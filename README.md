@@ -81,7 +81,7 @@ Embora o **Ybyscan** entregue bons resultados em condições controladas, alguns
 
 🔧 **Sugestões futuras**:
 - Aplicar equalização de histograma (`cv2.equalizeHist`) para corrigir iluminação.
-- Implementar um pós-processamento com morfologia (erosão/dilatação).
+- Implementar um pós-processamento com morfologia (erosão/dilatação) (Uma questão ainda não aprofundada por mim).
 - Incorporar aprendizado de máquina leve (CNN ou U-Net compacta) para reconhecimento semântico.
 
 
