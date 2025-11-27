@@ -30,13 +30,13 @@ Converte a imagem para o espaço **HSV** e aplica filtros por intervalo de cor (
 Ideal para identificar áreas verdes de cultivo ou superfícies azuis como lonas e marcações.
 
 ```bash
-python segment.py --input samples/soja.jpg --method hsv --target green
+python segment.py --input samples/milho.jpg --method hsv --target green
 ```
 
 Ajuste fino (verde intenso):
 
 ```bash
-python segment.py --input samples/soja.jpg --method hsv --target green \
+python segment.py --input samples/plantacao.jpg --method hsv --target green \
 --hmin 35 --hmax 85 --smin 60 --smax 255 --vmin 40 --vmax 255
 ```
 
